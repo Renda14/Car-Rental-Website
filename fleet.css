@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+.car-card {
+    background-color: greenyellow;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.rent-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+header{
+    text-align: center;
+    box-shadow: green;
+    font-weight: bolder;
+    font-size: larger;
+}

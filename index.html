@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Web</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+        <div class="topnav">
+          <a href="aboutus.html"><b>ABOUT US</a>
+          <a href="contactus.html">CONTACT US</a>
+          <a href="forms.html">MY BOOKING</a>
+          <a href="reservation.html">RESERVATION</a>
+          <a href="fleet.html">FLEET</a>
+          <a href="index.html">HOME</a>
+          <img src="pngtree-car-icon-glossy-green-round-button-sign-png-image_10744894.png" style="width: 80px; height: 80px;"> REE CAR RENTAL
+        </div>
+    
+
+        <div class="top1">
+            <p>WE PROVIDE A <br>RELIABLE &<b>LUXURY CARS<br>FOR RENT</p>
+        </div>
+
+
+
+        <fieldset class="fieldset">
+          <legend><b>Book Your Car:</legend>
+          Select Car:<select name="Select Car" id="Select Car">
+            <option value="Audi RS3">Audi RS3</option>
+            <option value="BMW">BMW</option>
+            <option value="KIA Seltos">KIA Seltos</option>
+            <option value="Toyota RAV4">Toyota RAV4</option>
+            <option value="Golf GTI">Golf GTI</option>
+            <option value="Mercedes Benz AMG">Mercedes Benz AMG</option>
+        </select>
+          Pick-up Date: <input type="date">
+          Pick-up Location:  <select name="Location" id="Location">
+            <option value="Wynberg">Wynberg</option>
+            <option value="Thohoyandou">Thohoyandou</option>
+            <option value="Sandton">Sandton</option>
+          </select>
+          <section>
+            <form id="myForm">
+           Enter Name: <input type="text" placeholder="Enter your name">
+            Submit: <input type="submit" value="Submit">
+          </form>
+          </section>
+        </fieldset>
+
+        <script>
+          document.getElementById("myForm").addEventListener("submit", function(event) {
+              event.preventDefault();
+              alert("Thank you! We will contact you soon.");
+          });
+      </script>   
+</body>
+</html>
